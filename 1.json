@@ -1,0 +1,15 @@
+{
+    "name" : "Dilkash",
+    "age" : 20,
+    "isStudent" : true,
+    "skills" : ["Python", "C", "C++", "PHP"],
+
+    "address" : {
+                "street" : "1/323",
+                "city" : "Kathmandu",
+                "pincode" : 22012
+
+                 },
+    "test" : null
+}
+

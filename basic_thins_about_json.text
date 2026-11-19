@@ -1,0 +1,71 @@
+
+# What is JSON
+    - JSON stands for Javascript Object Notation
+    1. Lightweight data format
+    2. Easy to read and write for humans ▪3. Language Independed based on Javascript Syntax. 
+
+
+
+# Where it is used ? 
+    1. API (REST, Graphql response, request)
+    2. Config files
+    3. Data Storage
+    4. Web apps, Mobile apps
+
+
+# Data is in KEY - VALUE Pair
+    Keys are always in strings
+
+    "name": value
+    Value can be
+        1. String
+        2. Number
+        3.Boolean
+        4.Array
+        5.Object
+        6.null
+
+# Examples of JSON
+
+{
+    "name" : "Dilkash",
+    "age" : 20,
+    "isStudent" : true,
+    "skills" : ["Python", "C", "C++", "PHP"],
+
+    "address" : {
+                "street" : "1/323",
+                "city" : "Kathmandu",
+                "pincode" : 22012
+
+                 },
+    "test" : null
+}
+
+
+# jsonlint.com 
+    -JsonLint to check our json code is valid or not
+
+
+
+
+
+# Json Rules
+    1. Keys must be in double quotes. 2. String is in double quotes.
+    3. No comments are allowed.
+    4. No Trailing Commas.
+    5. Data Types: String, Number, Boolean, Array, Object, null.
+
+# JSON vs Javascript (js)
+
+JSON --> Strict type, Used for Data Exchange, 
+JS--> Flexible, General Programing
+
+# Nested object 
+
+{
+    "Users" : [
+        {"name" : "Ram", "age" : 20},
+        {"name" : "Sita", "age": 19}
+    ]
+}

@@ -1,0 +1,10 @@
+{
+    "name" : "Dilkash",
+    "phone" : "9812345678",
+    "skills" : ["java","Python"],
+
+    "address" : {
+        "city" : "janakpur",
+        "pincode" : 2354
+                }
+}
